@@ -1,0 +1,7 @@
+﻿CREATE TABLE News (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Title NVARCHAR(MAX) NOT NULL,
+    Link NVARCHAR(MAX) NOT NULL,
+    Description NVARCHAR(MAX) NOT NULL,
+    PublicationDate DATETIME NOT NULL
+)
